@@ -16,34 +16,33 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Clock (Step button)"
+  ui[1]: "Reset (active LOW)"
+  ui[2]: "IN0 from DIP switch"
+  ui[3]: "IN1 from DIP switch"
+  ui[4]: "IN2 from DIP switch"
+  ui[5]: "IN3 from DIP switch"
+  ui[6]: "IN4 from DIP switch"
+  ui[7]: "IN5–IN7 from DIP switch (unused in logic)"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "Output 0 (to 7-segment display segment a)"
+  uo[1]: "Output 1 (to 7-segment display segment b)"
+  uo[2]: "Output 2 (to 7-segment display segment c)"
+  uo[3]: "Output 3 (to 7-segment display segment d)"
+  uo[4]: "Output 4 (to 7-segment display segment e)"
+  uo[5]: "Output 5 (to 7-segment display segment f)"
+  uo[6]: "Output 6 (to 7-segment display segment g)"
+  uo[7]: "Output 7 (extra/unused output)"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
-
+  uio[0]: "Not connected"
+  uio[1]: "Not connected"
+  uio[2]: "Not connected"
+  uio[3]: "Not connected"
+  uio[4]: "Not connected"
+  uio[5]: "Not connected"
+  uio[6]: "Not connected"
+  uio[7]: "Not connected"
 # Do not change!
 yaml_version: 6
