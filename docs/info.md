@@ -21,6 +21,7 @@ The 7-segment display represents the logic result in visual numeric form.
 
 ## How to test
 
+
 Press RESET to clear the circuit.
 
 Set the DIP switch inputs (e.g., IN0 and IN1 for a and b).
@@ -31,11 +32,12 @@ Observe the 7-segment output or output pins.
 
 Compare the results with the expected logic table below:
 
-Input A	Input B	Output AND	Output NAND	Output OR
-0	0	0	1	0
-0	1	0	1	1
-1	0	0	1	1
-1	1	1	0	1
+Input A	| Input B	| Output AND | Output NAND | Output OR |
+   0	  |    0	  |     0	     |      1	     |      0    |
+   0	  |    1	  |     0	     |      1	     |      1    |   
+   1	  |    0	  |     0	     |      1	     |      1    |
+   1	  |    1	  |     1	     |      0	     |      1    |
+
 
 Optionally, connect a clock source (e.g., 10 kHz) to the CLK pin to automate stepping.
 You should see the outputs (and segments of the display) flashing at different rates depending on the logic combination.
